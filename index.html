@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Time Tracking Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="main">
+        <div id="profile-card-container">
+            <div id="blue-profile-container">
+                 <div id="profile-image-container">
+                    <img src="images/image-jeremy.png" alt="" id="profile-image">
+                 </div>
+                 <div id="profile-text">
+                    <p id="report">Report For</p>
+                    <p id="name">Jeremy Robson</p>
+                 </div>
+            </div>
+            <div id="time-container">
+                <div id="time-container-text">
+                    <p id="daily" class="time-button">Daily</p>
+                    <p id="weekly" class="time-button">Weekly</p>
+                    <p id="monthly" class="time-button">Monthly</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="report-card-section">
+
+            <div id="work-container" class="item-container">
+                <div id="work-image-container" class="item-image-container">
+                    <img src="images/icon-work.svg" alt="" id="work-image" class="item-image">
+                </div>
+                <div id="item-bg-container" class="item-text">
+                    <div class="item-top-text">
+                        <p class="item-name">Work</p>
+                        <img src="images/icon-ellipsis.svg" alt="" id="ellipsis">
+                    </div>
+                    <div class="item-bottom-text">
+                        <p id="work-current-hour" class="hours">32hrs</p>
+                        <p id="work-last-hour" class="last-hour">Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="play-container" class="item-container">
+                <div id="play-image-container" class="item-image-container">
+                    <img src="images/icon-play.svg" alt="" id="play-image" class="item-image">
+                </div>
+                <div id="item-bg-container" class="item-text">
+                    <div class="item-top-text">
+                        <p class="item-name">Play</p>
+                        <img src="images/icon-ellipsis.svg" alt="" id="ellipsis">
+                    </div>
+                    <div class="item-bottom-text">
+                        <p id="play-hours" class="hours">32hrs</p>
+                        <p id="play-last-hour" class="last-hour">Last Week - 0hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="study-container" class="item-container">
+                <div id="study-image-container" class="item-image-container">
+                    <img src="images/icon-study.svg" alt="" id="play-image" class="item-image">
+                </div>
+                <div id="item-bg-container" class="item-text">
+                    <div class="item-top-text">
+                        <p class="item-name">Study</p>
+                        <img src="images/icon-ellipsis.svg" alt="" id="ellipsis">
+                    </div>
+                    <div class="item-bottom-text">
+                        <p id="study-hours" class="hours">32hrs</p>
+                        <p class="last-hour" id="study-last-hour">Last Week - 0hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="exercise-container" class="item-container">
+                <div id="exercise-image-container" class="item-image-container">
+                    <img src="images/icon-play.svg" alt="" id="play-image" class="item-image">
+                </div>
+                <div id="item-bg-container" class="item-text">
+                    <div class="item-top-text">
+                        <p class="item-name">Exercise</p>
+                        <img src="images/icon-ellipsis.svg" alt="" id="ellipsis">
+                    </div>
+                    <div class="item-bottom-text">
+                        <p id="exercise-hours" class="hours">32hrs</p>
+                        <p class="last-hour" id="exercise-last-hour">Last Week - 0hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="socail-container" class="item-container">
+                <div id="social-image-container" class="item-image-container">
+                    <img src="images/icon-social.svg" alt="" id="play-image" class="item-image">
+                </div>
+                <div id="item-bg-container" class="item-text">
+                    <div class="item-top-text">
+                        <p class="item-name">Social</p>
+                        <img src="images/icon-ellipsis.svg" alt="" id="ellipsis">
+                    </div>
+                    <div class="item-bottom-text">
+                        <p id="social-hours" class="hours">32hrs</p>
+                        <p id="social-last-hour" class="last-hour">Last Week - <span id="last-week-hour">36</span>hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="self-container" class="item-container">
+                <div id="self-image-container" class="item-image-container">
+                    <img src="images/icon-self-care.svg" alt="" id="play-image" class="item-image">
+                </div>
+                <div id="item-bg-container" class="item-text">
+                    <div class="item-top-text">
+                        <p class="item-name">Self Care</p>
+                        <img src="images/icon-ellipsis.svg" alt="" id="ellipsis">
+                    </div>
+                    <div class="item-bottom-text">
+                        <p id="self-current-hour" class="hours">32hrs</p>
+                        <p id="self-last-hour" class="last-hour">Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
